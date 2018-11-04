@@ -1,0 +1,5 @@
+include dash_lottie_loader/dash_lottie_loader.min.js
+include dash_lottie_loader/dash_lottie_loader.dev.js
+include dash_lottie_loader/metadata.json
+include dash_lottie_loader/package.json
+include README.md

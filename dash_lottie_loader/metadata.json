@@ -1,0 +1,44 @@
+{
+  "src/lib/components/LottieLoader.react.js": {
+    "description": "",
+    "displayName": "LottieLoader",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "The children of this component"
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks"
+      },
+      "isFinishedLoading": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": ""
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Defines CSS styles which will override styles previously set."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called whenever any of the\nproperties change"
+      }
+    }
+  }
+}
